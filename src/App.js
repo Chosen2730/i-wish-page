@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Nav />
-      <div className='w-5/6 mx-auto'>
+      <div className='sm:w-5/6 mx-auto px-4'>
         <Hero />
         <Center />
         <Footer />
