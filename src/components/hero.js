@@ -4,7 +4,7 @@ import phone from "../images/phone.png";
 
 const Hero = () => {
   return (
-    <div className='text-gray-900 py-8 grid sm:grid-cols-2 gap-6 items-center'>
+    <div className='text-gray-900 py-8 grid sm:grid-cols-2 gap-6 items-center my-12'>
       <div>
         <h1 className='font-bold text-3xl sm:text-5xl'>
           Creating <span className='text-[#7805A7]'>wishlists</span> has never
@@ -15,7 +15,7 @@ const Hero = () => {
           who grants the wish, and the vendor who has the wished items in his
           store
         </p>
-        <h2 className='text-xl font-semibold my-2 mt-5'>Subscribe</h2>
+        <h2 className='text-xl font-bold my-2 mt-5'>Subscribe</h2>
         <form
           action=''
           className='bg-gray-200 p-2 rounded-md flex items-center'

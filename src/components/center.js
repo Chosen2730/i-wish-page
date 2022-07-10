@@ -6,7 +6,7 @@ import phone3 from "../images/phone3.png";
 import third from "../images/third.png";
 const Center = () => {
   return (
-    <main className='text-gray-800 my-10 sm:mt-32'>
+    <main className='text-gray-800 my-12 sm:mt-32'>
       <div>
         <h1 className='text-2xl font-bold text-center my-5'>App Features</h1>
         <div className='grid sm:grid-cols-3 gap-8'>
