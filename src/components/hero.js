@@ -1,42 +1,40 @@
 import React from "react";
-import circle from "../images/circle.png";
+import star2 from "../images/star2.png";
 import phone from "../images/phone.png";
+import google from "../images/google.png";
+import app from "../images/app.png";
 
 const Hero = () => {
   return (
-    <div className='text-gray-900 py-8 grid sm:grid-cols-2 gap-6 items-center my-12'>
-      <div>
-        <h1 className='font-bold text-3xl sm:text-5xl'>
-          Creating <span className='text-[#7805A7]'>wishlists</span> has never
-          been easier
+    <div className='bg-[#7805A7] md:grid sm:grid-cols-2 gap-8 my-12 overflow-hidden relative items-center justify-center w-full rounded-2xl md:h-[550px] p-4 sm:p-12'>
+      <div className='py-12 text-center sm:text-left'>
+        <h1 className='text-4xl md:text-5xl font-extrabold text-purple-100'>
+          Make a wish.
+          <span className='text-[#FFCC00] block'>
+            Recieve at your doorstep.
+          </span>
         </h1>
-        <p className='text-sm my-2'>
-          An intuitive gift-sharing app made for- the one who wishes, the one
-          who grants the wish, and the vendor who has the wished items in his
-          store
+        <p className='text-purple-100 text-sm md:text-base my-5'>
+          An intuitive gift-sharing app made for users to get what they love and
+          desire by simply wishing for it. Made for gifters and wishers!
         </p>
-        <h2 className='text-xl font-bold my-2 mt-5'>Subscribe</h2>
-        <form
-          action=''
-          className='bg-gray-200 p-2 rounded-md flex items-center'
-          onSubmit={(e) => e.preventDefault()}
-        >
-          <input
-            type='email'
-            className='w-full bg-transparent p-2'
-            placeholder='enter your email address'
-          />
-          <input
-            className='w-fit bg-[#7805A7] capitalize font-bold p-3 transition hover:bg-purple-900 hover:scale-105 px-4 text-sm rounded-md text-purple-50'
-            type='submit'
-            value='subscribe'
-          />
-        </form>
+        <div className='grid grid-cols-2 items-center gap-8 sm:my-10'>
+          <img src={google} className='w-full' alt='' />
+          <img src={app} className='w-full' alt='' />
+        </div>
       </div>
-      <div className='relative p-2 w-full h-full flex justify-center items-center -mt-10 sm:mt-0'>
-        <img className='w-52' src={phone} alt='' />
-        <img className='absolute w-96 top-20 -z-10' src={circle} alt='' />
+      <div>
+        <img
+          src={phone}
+          className='hidden md:block w-[420px] md:w-[50%] sm:absolute top-0 z-10'
+          alt=''
+        />
       </div>
+      <img
+        src={star2}
+        alt=''
+        className='absolute -top-32 -right-32  md:-top-48 md:-right-48 w-1/2'
+      />
     </div>
   );
 };
