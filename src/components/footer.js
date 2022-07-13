@@ -11,7 +11,7 @@ import tik from "../images/tik.png";
 const Footer = () => {
   return (
     <div className='relative overflow-hidden'>
-      <div className='bg-[#7805A7] relative p-12 py-28 flex flex-col justify-center items-center rounded-xl my-5'>
+      <div className='bg-[#7805A7] relative p-12 py-36 rounded-3xl flex flex-col justify-center items-center my-5'>
         <img
           className='absolute w-32 md:w-48 top-0 right-0 rounded-xl'
           src={star1}
@@ -24,27 +24,27 @@ const Footer = () => {
           Start creating unlimited wishlist by downloading the app now
         </p>
         <div className='grid grid-cols-2 items-center space-x-4'>
-          <img src={google} className='w-full' alt='' />
-          <img src={app} className='w-full' alt='' />
+          <img src={google} className='' alt='' />
+          <img src={app} className='' alt='' />
         </div>
       </div>
       <div>
-        <div className='flex space-x-4 items-center justify-center my-10 cursor-pointer'>
+        <div className='flex space-x-8 items-center justify-center my-10 cursor-pointer'>
           <a href='https://vm.tiktok.com/ZMN5PGyRv/'>
-            <img src={tik} alt='' className='w-6' />{" "}
+            <img src={tik} alt='' className='w-8' />{" "}
           </a>
           <a href='https://twitter.com/iwish__app?s=21&t=GG38Ldi9IcSnetVGazTBBA'>
-            <img src={twitter} alt='' className='w-6' />
+            <img src={twitter} alt='' className='w-8' />
           </a>
           <a href='https://www.instagram.com/iwish_app/'>
-            <img src={ig} alt='' className='w-6' />
+            <img src={ig} alt='' className='w-8' />
           </a>
           <a href='https://www.youtube.com/'>
-            <img src={youtube} alt='' className='w-6' />
+            <img src={youtube} alt='' className='w-8' />
           </a>
         </div>
 
-        <div className='flex justify-center capitalize gap-4 my-10 text-xs md:text-base font-bold text-gray-900 cursor-pointer'>
+        <div className='flex justify-center capitalize gap-8 my-10 text-xs md:text-base font-bold text-gray-900 cursor-pointer'>
           <a href=''>Faq</a>
           <a href=''>Privacy</a>
           <a href=''>Contact us</a>

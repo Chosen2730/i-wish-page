@@ -4,9 +4,9 @@ import Center from "./components/center";
 import Footer from "./components/footer";
 function App() {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className=''>
       <Nav />
-      <div className='sm:w-[90%] mx-auto px-4 sm:px-0'>
+      <div className='max-w-7xl sm:w-[90%] mx-auto px-4 sm:px-0'>
         <Hero />
         <Center />
         <Footer />

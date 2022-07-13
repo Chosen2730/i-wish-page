@@ -6,8 +6,8 @@ import { IoClose } from "react-icons/io5";
 const Nav = () => {
   const [nav, setNav] = useState(false);
   return (
-    <nav className='py-4 shadow-md w-full'>
-      <div className='w-[90%] mx-auto flex flex-col md:flex-row justify-between  md:items-center'>
+    <nav className='py-4 border-b-2 w-full'>
+      <div className='max-w-7xl w-[90%] mx-auto flex flex-col md:flex-row justify-between  md:items-center'>
         <div className='flex justify-between items-center'>
           <img className='w-20 object-contain' src={logo} alt='logo' />
           <i
