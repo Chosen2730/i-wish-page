@@ -24,8 +24,8 @@ const Footer = () => {
           Start creating unlimited wishlist by downloading the app now
         </p>
         <div className='grid grid-cols-2 items-center space-x-4'>
-          <img src={google} className='' alt='' />
-          <img src={app} className='' alt='' />
+          <img src={google} className='w-fit h-12 object-cover' alt='' />
+          <img src={app} className='w-fit h-12 object-cover' alt='' />
         </div>
       </div>
       <div>

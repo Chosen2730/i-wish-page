@@ -19,14 +19,14 @@ const Hero = () => {
           desire by simply wishing for it. Made for gifters and wishers!
         </p>
         <div className='grid grid-cols-2 items-center gap-8 sm:my-10'>
-          <img src={google} className='' alt='' />
-          <img src={app} className='' alt='' />
+          <img src={google} className='w-full h-full object-cover' alt='' />
+          <img src={app} className='w-full h-full object-cover' alt='' />
         </div>
       </div>
       <div>
         <img
           src={phone}
-          className='hidden md:block w-[420px] md:w-[50%] sm:absolute top-0 z-10'
+          className='hidden md:block w-[420px] md:w-[48%] sm:absolute top-0 z-10'
           alt=''
         />
       </div>
