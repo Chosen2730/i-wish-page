@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='bg-[#7805A7] md:grid sm:grid-cols-2 gap-8 my-12 overflow-hidden relative items-center justify-center w-full rounded-2xl md:h-[550px] p-4 sm:p-12'>
       <div className='py-12 text-center sm:text-left'>
-        <h1 className='text-4xl md:text-5xl font-extrabold text-purple-100'>
+        <h1 className='text-5xl font-extrabold text-purple-100'>
           Make a wish.
           <span className='text-[#FFCC00] block'>
             Recieve at your doorstep.
