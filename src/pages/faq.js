@@ -7,13 +7,13 @@ import Download from "../components/download";
 const FAQ = () => {
   return (
     <div className='max-w-7xl sm:w-[90%] mx-auto px-4 sm:px-0 py-8'>
-      <div className='my-10 text-center gray-800 w-[90%] sm:w-[75%] mx-auto'>
+      <div className='my-10 text-center gray-800 w-[95%] sm:w-[75%] mx-auto'>
         <h1 className='font-bold text-5xl'>Frequently Asked Questions</h1>
         <p className='text-base my-2'>
           Questions we often get asked by users. You can search for any question
           using the search field below
         </p>
-        <div className='w-[80%] sm:w-[70%] mx-auto flex items-center space-x-2  bg-gray-100 p-2 rounded-lg'>
+        <div className='w-[90%] sm:w-[70%] mx-auto flex items-center space-x-2  bg-gray-100 p-2 rounded-lg'>
           <input
             type='text'
             placeholder='Search for keyword questions'
@@ -22,7 +22,7 @@ const FAQ = () => {
           <img src={search} className='bg-[#7805A7] p-3 rounded-md' alt='' />
         </div>
       </div>
-      <div className='p-4 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[90%] sm:w-[75%] mx-auto gap-4 gap-y-8'>
+      <div className='p-6 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[95%] sm:w-[75%] mx-auto gap-4 gap-y-8'>
         {questions.map((question, i) => {
           return <SingleFaq index={i} question={question} key={i} />;
         })}

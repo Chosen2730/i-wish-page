@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
+  const closeNav = () => {
+    setNav(false);
+  };
   return (
     <nav className='py-4 border-b-2 w-full'>
       <div className='max-w-7xl w-[90%] mx-auto flex flex-col md:flex-row justify-between  md:items-center'>
@@ -24,19 +27,29 @@ const Nav = () => {
           }  md:flex flex-col md:flex-row text-base md:items-center space-y-6 md:space-y-0 my-4 md:space-x-5 text-gray-700`}
         >
           <Link to='/'>
-            <h4 className='my-5'>Home</h4>
+            <h4 className='my-5' onClick={closeNav}>
+              Home
+            </h4>
           </Link>
           <Link to='feature'>
-            <h4 className='my-5'>Feature</h4>
+            <h4 className='my-5' onClick={closeNav}>
+              Feature
+            </h4>
           </Link>
           <Link to='contact'>
-            <h4 className='my-5'>Contact Us</h4>
+            <h4 className='my-5' onClick={closeNav}>
+              Contact Us
+            </h4>
           </Link>
           <Link to='faq'>
-            <h4 className='my-5'>FAQ</h4>
+            <h4 className='my-5' onClick={closeNav}>
+              FAQ
+            </h4>
           </Link>
           <Link to='vendor'>
-            <h4 className='my-5'>Become a Vendor</h4>
+            <h4 className='my-5' onClick={closeNav}>
+              Become a Vendor
+            </h4>
           </Link>
         </div>
 

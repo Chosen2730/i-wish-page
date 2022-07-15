@@ -12,7 +12,7 @@ const Contact = () => {
           Want to get in touch or have any enquiry to make?
         </p>
       </div>
-      <div className='grid md:grid-cols-2 p-4 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[90%] sm:w-[75%] mx-auto gap-4 gap-y-8'>
+      <div className='grid md:grid-cols-2 p-6 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[95%] sm:w-[75%] mx-auto gap-4 gap-y-8'>
         <div>
           <h1 className='text-xl font-bold my-2'>Contact us</h1>
           <div className='flex space-x-4 items-start my-4'>

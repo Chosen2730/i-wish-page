@@ -20,7 +20,7 @@ export const questions = [
     a: "Yes you can request money from your loved ones so far you have their wish username or phone number.",
   },
   {
-    q: "Can I send money to another user?",
+    q: "Can I send money to another user",
     a: "Yes you can transfer money to another user on the platform either using you card/bank transfer or using your funded iwish wallet.",
   },
   {
