@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "../images/logo.png";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -22,10 +23,21 @@ const Nav = () => {
             nav ? "" : "hidden"
           }  md:flex flex-col md:flex-row text-base md:items-center space-y-6 md:space-y-0 my-4 md:space-x-5 text-gray-700`}
         >
-          <h4>Home</h4>
-          <h4>Feature</h4>
-          <h4>Contact Us</h4>
-          <h4>Become a Vendor</h4>
+          <Link to='/'>
+            <h4 className='my-5'>Home</h4>
+          </Link>
+          <Link to='feature'>
+            <h4 className='my-5'>Feature</h4>
+          </Link>
+          <Link to='contact'>
+            <h4 className='my-5'>Contact Us</h4>
+          </Link>
+          <Link to='faq'>
+            <h4 className='my-5'>FAQ</h4>
+          </Link>
+          <Link to='vendor'>
+            <h4 className='my-5'>Become a Vendor</h4>
+          </Link>
         </div>
 
         <button
