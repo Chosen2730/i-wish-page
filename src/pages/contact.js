@@ -1,9 +1,12 @@
-import React from "react";
+import { useEffect } from "react";
 import call from "../images/call.png";
 import mail from "../images/mail.png";
 import venue from "../images/venue.png";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
   return (
     <div className='max-w-7xl sm:w-[90%] mx-auto px-4 sm:px-0 py-8'>
       <div className='my-10 text-center gray-800 w-[90%] sm:w-[75%] mx-auto'>

@@ -3,6 +3,7 @@ import twitter from "../images/twitter.png";
 import youtube from "../images/youtube.png";
 import ig from "../images/ig.png";
 import tik from "../images/tik.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,10 +25,10 @@ const Footer = () => {
         </div>
 
         <div className='flex justify-center capitalize gap-8 my-10 text-xs md:text-base font-bold text-gray-900 cursor-pointer'>
-          <a href=''>Faq</a>
-          <a href=''>Privacy</a>
-          <a href=''>Contact us</a>
-          <a href=''>become a vendor</a>
+          <Link to='faq'>Faq</Link>
+          <Link to='privacy'>Privacy</Link>
+          <Link to='contact'>Contact us</Link>
+          <Link to='vendor'>become a vendor</Link>
         </div>
       </div>
 

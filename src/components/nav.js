@@ -43,11 +43,11 @@ const Nav = () => {
               Contact Us
             </h4>
           </Link>
-          <Link to='faq'>
+          {/* <Link to='faq'>
             <h4 className='my-5' onClick={closeNav}>
               FAQ
             </h4>
-          </Link>
+          </Link> */}
           <Link to='vendor'>
             <h4 className='my-5' onClick={closeNav}>
               Become a Vendor

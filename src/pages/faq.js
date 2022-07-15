@@ -1,10 +1,13 @@
-import React from "react";
+import { useEffect } from "react";
 import search from "../images/search.png";
 import SingleFaq from "../components/singleFaq";
 import { questions } from "../data";
 import Download from "../components/download";
 
 const FAQ = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
   return (
     <div className='max-w-7xl sm:w-[90%] mx-auto px-4 sm:px-0 py-8'>
       <div className='my-10 text-center gray-800 w-[95%] sm:w-[75%] mx-auto'>
