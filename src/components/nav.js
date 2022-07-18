@@ -10,7 +10,7 @@ const Nav = () => {
     setNav(false);
   };
   return (
-    <nav className='py-4 border-b-2 w-full'>
+    <nav className='border-b-2 w-full'>
       <div className='max-w-7xl w-[90%] mx-auto flex flex-col md:flex-row justify-between  md:items-center'>
         <div className='flex justify-between items-center'>
           <Link to='/' onClick={closeNav}>
@@ -33,12 +33,12 @@ const Nav = () => {
               Home
             </h4>
           </Link>
-          <Link to='feature'>
+          <Link to='/feature'>
             <h4 className='my-5' onClick={closeNav}>
               Feature
             </h4>
           </Link>
-          <Link to='contact'>
+          <Link to='/contact'>
             <h4 className='my-5' onClick={closeNav}>
               Contact Us
             </h4>
@@ -48,7 +48,7 @@ const Nav = () => {
               FAQ
             </h4>
           </Link> */}
-          <Link to='vendor'>
+          <Link to='/vendor'>
             <h4 className='my-5' onClick={closeNav}>
               Become a Vendor
             </h4>
