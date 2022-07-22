@@ -24,11 +24,11 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className='grid grid-cols-2 sm:flex justify-center mx-auto capitalize sm:gap-8 my-10 text-xs md:text-base text-gray-900 '>
+        <div className='flex justify-center mx-auto capitalize sm:gap-8 my-10 text-xs md:text-base text-gray-900 '>
           <Link to='/faq'>Faq</Link>
           <Link to='/privacy'>Privacy</Link>
           <Link to='/contact'>Contact us</Link>
-          <Link to='/terms'>Terms & Condition</Link>
+          <Link to='/terms'>Terms</Link>
           <Link to='/vendor'>become a vendor</Link>
         </div>
       </div>
