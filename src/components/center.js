@@ -7,7 +7,7 @@ import third from "../images/third.png";
 const Center = () => {
   return (
     <main className='text-gray-900 my-12 sm:mt-32'>
-      <div>
+      <div id='feature'>
         <h1 className='text-3xl md:text-5xl font-bold text-center my-5 capitalize'>
           App Features
         </h1>

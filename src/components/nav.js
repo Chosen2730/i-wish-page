@@ -33,11 +33,11 @@ const Nav = () => {
               Home
             </h4>
           </Link>
-          <Link to='/feature'>
+          <a href='#feature'>
             <h4 className='my-5' onClick={closeNav}>
               Feature
             </h4>
-          </Link>
+          </a>
           <Link to='/contact'>
             <h4 className='my-5' onClick={closeNav}>
               Contact Us
