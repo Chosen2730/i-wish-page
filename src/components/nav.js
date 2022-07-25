@@ -10,7 +10,7 @@ const Nav = () => {
     setNav(false);
   };
   return (
-    <nav className='border-b-2 w-full'>
+    <nav className='shadow-md w-full'>
       <div className='max-w-7xl w-[90%] mx-auto py-4 sm:py-0 flex flex-col md:flex-row justify-between  md:items-center'>
         <div className='flex justify-between items-center'>
           <Link to='/' onClick={closeNav}>
