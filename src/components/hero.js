@@ -7,7 +7,7 @@ import app from "../images/app.png";
 const Hero = () => {
   return (
     <div className='bg-[#7805A7] md:grid sm:grid-cols-2 gap-8 my-12 overflow-hidden relative items-center justify-center w-full rounded-3xl md:h-[550px] p-4 sm:p-12'>
-      <div className='py-12 text-center sm:text-left'>
+      <div className='py-12 text-left'>
         <h1 className='text-5xl font-extrabold text-purple-100'>
           Make a wish.
           <span className='text-[#FFCC00] block'>
@@ -19,8 +19,8 @@ const Hero = () => {
           desire by simply wishing for it. Made for gifters and wishers!
         </p>
         <div className='grid grid-cols-2 items-center gap-8 sm:my-10'>
-          <img src={google} className='w-full h-full object-cover' alt='' />
-          <img src={app} className='w-full h-full object-cover' alt='' />
+          <img src={google} className='w-full h-full' alt='' />
+          <img src={app} className='w-full h-full' alt='' />
         </div>
       </div>
       <div>

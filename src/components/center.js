@@ -14,7 +14,7 @@ const Center = () => {
         <div className='grid sm:grid-cols-3 gap-8'>
           <div className='shadow-sm p-4'>
             <img
-              className='bg-purple-200 p-2 rounded-xl'
+              className='bg-purple-200 p-2 rounded-xl w-12'
               src={star}
               alt='money'
             />
@@ -28,7 +28,7 @@ const Center = () => {
           </div>
           <div className='shadow-sm p-4'>
             <img
-              className='bg-yellow-200 p-2 rounded-xl'
+              className='bg-yellow-200 p-2 rounded-xl w-12'
               src={store}
               alt='money'
             />
@@ -40,11 +40,13 @@ const Center = () => {
           </div>
           <div className='shadow-sm p-4'>
             <img
-              className='bg-blue-200 p-2 rounded-xl'
+              className='bg-blue-200 p-2 rounded-xl w-12'
               src={money}
               alt='money'
             />
-            <h5 className='font-bold text-xl md:text-2xl my-3'>Send money </h5>
+            <h5 className='font-bold text-xl md:text-2xl my-3'>
+              Request money{" "}
+            </h5>
             <p className='text-sm md:text-base font-normal'>
               An intuitive gift-sharing app made for users to get what they love
               and desire by simply wishing for it. Made for gifters and wishers!
