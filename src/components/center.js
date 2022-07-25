@@ -1,6 +1,6 @@
 import money from "../images/money.png";
 import store from "../images/store.png";
-import star from "../images/star.png";
+import star from "../images/star.svg";
 import phone2 from "../images/phone2.png";
 import phone3 from "../images/phone3.png";
 import third from "../images/third.png";
