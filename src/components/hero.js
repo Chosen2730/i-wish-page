@@ -1,6 +1,7 @@
 import React from "react";
 import star2 from "../images/star2.png";
 import phone from "../images/phone.png";
+import mockup from "../images/movkup.png";
 import google from "../images/google.png";
 import app from "../images/app.png";
 
@@ -23,10 +24,10 @@ const Hero = () => {
           <img src={app} className='w-full h-full' alt='' />
         </div>
       </div>
-      <div>
+      <div className='w-full h-96'>
         <img
-          src={phone}
-          className='hidden md:block w-[420px] md:w-[48%] sm:absolute top-0 z-10'
+          src={mockup}
+          className='w-full relative -bottom-5 sm:-bottom-12 h-full md:h-fit object-cover md:w-[800px] md:-right-40 md:absolute md:bottom-0 z-10'
           alt=''
         />
       </div>
