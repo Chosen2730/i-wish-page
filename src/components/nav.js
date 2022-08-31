@@ -11,13 +11,13 @@ const Nav = () => {
   };
   return (
     <nav className='shadow-md w-full'>
-      <div className='max-w-7xl w-[90%] mx-auto py-4 sm:py-0 flex flex-col md:flex-row justify-between  md:items-center'>
+      <div className='max-w-7xl w-[90%] mx-auto py-4 md:py-0 flex flex-col md:flex-row justify-between  md:items-center'>
         <div className='flex justify-between items-center'>
           <Link to='/' onClick={closeNav}>
             <img className='w-20 object-contain' src={logo} alt='logo' />
           </Link>
           <i
-            className='md:hidden bg-[#7805A7] text-white p-2 rounded-sm text-xl'
+            className='md:hidden bg-[#7805A7] text-white p-2 rounded-md text-xl'
             onClick={() => setNav(!nav)}
           >
             {nav ? <IoClose className='' /> : <FiMenu className='' />}

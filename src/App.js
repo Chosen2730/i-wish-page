@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import Error from "./pages/error";
 import Privacy from "./pages/privacy";
 import Terms from "./pages/terms";
+import Vendor from "./pages/vendor";
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route path='faq' element={<FAQ />} />
         <Route path='privacy' element={<Privacy />} />
         <Route path='terms' element={<Terms />} />
+        <Route path='vendor' element={<Vendor />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>
