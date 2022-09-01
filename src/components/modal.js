@@ -62,7 +62,7 @@ const Modal = ({ modal, setModal }) => {
           />
 
           <button
-            className='bg-[#7805A7] text-white rounded-md text-sm md:text-base py-4 px-20 font-normal tracking-wider w-fit my-2'
+            className='bg-[#7805A7] text-white rounded-md text-sm md:text-base py-4 px-6 sm:px-20 font-normal tracking-wider w-fit my-2'
             onClick={() => navigate("/validate")}
           >
             Create Account
