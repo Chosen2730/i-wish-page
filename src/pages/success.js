@@ -23,7 +23,7 @@ const Success = () => {
             </i>
             <p className=''>Back to Homepage</p>
           </Link>
-          <img src={laptop} className='w-[390px]' alt='laptop' />
+          <img src={laptop} className='w-[390px] mt-20' alt='laptop' />
           <h1 className='text-xl font-bold text-center my-2'>
             Account successfully created
           </h1>
