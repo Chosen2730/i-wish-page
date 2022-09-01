@@ -38,7 +38,7 @@ const Validation = () => {
                 return (
                   <input
                     className='bg-gray-200 w-10 h-10 rounded-md text-center font-bold text-xl'
-                    type='number'
+                    type='tel'
                     inputMode='numeric'
                     autoComplete='one-time-code'
                     name=''

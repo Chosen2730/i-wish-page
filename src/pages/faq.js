@@ -26,7 +26,7 @@ const FAQ = () => {
             <img src={search} className='bg-[#7805A7] p-3 rounded-md' alt='' />
           </div>
         </div>
-        <div className='p-6 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[95%] sm:w-[75%] mx-auto gap-4 gap-y-8'>
+        <div className='p-6 sm:p-12 shadow-md border-2 border-gray-50 text-gray-800 w-[95%] sm:w-[75%] mx-auto gap-4 gap-y-8 mb-32'>
           {questions.map((question, i) => {
             return <SingleFaq index={i} question={question} key={i} />;
           })}
