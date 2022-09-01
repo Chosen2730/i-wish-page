@@ -6,7 +6,7 @@ const Modal = ({ modal, setModal }) => {
   const navigate = useNavigate();
   return (
     <div className={`${modal ? "category" : "category hider"} overflow`}>
-      <div className='bg-white shadow-md rounded-md p-12 w-4/6'>
+      <div className='bg-white shadow-md rounded-md p-12 w-full sm:w-4/6'>
         <img
           className='bg-[#7805A7] p-2 ml-auto rounded-md'
           src={close}
